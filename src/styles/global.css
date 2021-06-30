@@ -1,0 +1,56 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Metropolis-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Metropolis ";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Metropolis-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Metropolis-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/Metropolis-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Metropolis-ExtraBold.woff") format("woff");
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-4xl;
+  }
+}
+
+.custom-height {
+  height: 1300px;
+}
+
+.custom-blue-bg {
+  background-color: #1b8c9d;
+}
