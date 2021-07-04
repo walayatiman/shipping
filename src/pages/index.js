@@ -11,10 +11,12 @@ import Reviews from "../sections/Reviews"
 import Sponsors from "../sections/Sponsors"
 import TwoModals from "../sections/TwoModals"
 import Cta from "../sections/Cta"
+import SEO from "../components/Seo"
 
 export default function Home() {
   return (
     <Layout>
+      <SEO title="Jevan" />
       <Hero />
       <OverlapInfo />
       <Delivered />

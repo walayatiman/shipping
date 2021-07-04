@@ -5,11 +5,13 @@ import Footer from "./Footer"
 
 export default function Layout({ children }) {
   return (
-    <div className="dark overflow-hidden">
-      <Navbar />
-      <div>{children}</div>
+    <>
+      <div className="dark overflow-hidden">
+        <Navbar />
+        <div>{children}</div>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   )
 }

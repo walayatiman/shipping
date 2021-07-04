@@ -5,6 +5,15 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "Pick Up Pro",
+    titleTemplate: "%s · The Real Hero",
+    description:
+      "Hogwarts Potions master, Head of Slytherin house and former Death Eater.",
+    url: "https://www.doe.com", // No trailing slash allowed!
+    image: "/images/amazon.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@occlumency",
+  },
   /* Your site config here */
   plugins: [
     "gatsby-plugin-postcss",
@@ -14,6 +23,8 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-modal-routing`,
+    `gatsby-plugin-react-helmet`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -29,9 +40,4 @@ module.exports = {
       },
     },
   ],
-  siteMetadata: {
-    title: "Jevan Lavador",
-    description: "My Portfolio",
-    copyright: "2021 website",
-  },
 }
