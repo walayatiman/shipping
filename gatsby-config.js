@@ -13,6 +13,7 @@ module.exports = {
     url: "https://www.doe.com", // No trailing slash allowed!
     image: "/images/amazon.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "@occlumency",
+    siteUrl: `https://epic-babbage-a96497.netlify.app/`,
   },
   /* Your site config here */
   plugins: [
@@ -24,6 +25,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-modal-routing`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
 
     {
       resolve: `gatsby-source-filesystem`,
