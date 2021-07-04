@@ -26,6 +26,7 @@ module.exports = {
     `gatsby-plugin-modal-routing`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
+    "gatsby-plugin-robots-txt",
 
     {
       resolve: `gatsby-source-filesystem`,
